@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "808865710156",
+    "project_id": "flutter-app-storage",
+    "storage_bucket": "flutter-app-storage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808865710156:android:09afe0ebbe2fb51f08b4e9",
+        "android_client_info": {
+          "package_name": "com.fansoni.flutterappstorage.flutter_app_storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808865710156-m7dem3i2p8ge5r2cklbcpnjgu01hcb2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_x6kz3BGyij_y5694yPCSWHtfaRFqbtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808865710156-m7dem3i2p8ge5r2cklbcpnjgu01hcb2h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808865710156-1eacho84pv8qcmdl5nu3s40q7pkrh8uo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fansoni.flutterappstorage.flutterAppStorage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

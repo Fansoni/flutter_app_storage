@@ -1,4 +1,5 @@
 class CepModel {
+  String? objectId = "";
   String? cep;
   String? logradouro;
   String? complemento;
@@ -11,6 +12,7 @@ class CepModel {
   String? siafi;
 
   CepModel({
+    this.objectId,
     this.cep,
     this.logradouro,
     this.complemento,
@@ -24,6 +26,7 @@ class CepModel {
   });
 
   factory CepModel.fromJson(Map<String, dynamic> json) => CepModel(
+        objectId: json["objectId"],
         cep: json["cep"],
         logradouro: json["logradouro"],
         complemento: json["complemento"],
@@ -37,6 +40,7 @@ class CepModel {
       );
 
   Map<String, dynamic> toJson() => {
+        "objectId": objectId,
         "cep": cep,
         "logradouro": logradouro,
         "complemento": complemento,
